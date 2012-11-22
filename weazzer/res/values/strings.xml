@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weazzer</string>    
+    <string name="settings_menu_label">Settings</string>
+    <string name="refresh_menu_label">Refresh</string>        
+    <string name="time">time</string>    
+    <string name="smaller">&lt;</string>
+
+</resources>

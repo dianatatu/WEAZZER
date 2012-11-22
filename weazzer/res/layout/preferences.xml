@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <PreferenceCategory android:title="General" >
+
+        <ListPreference
+            android:defaultValue="male"
+            android:entries="@array/genderArray"
+            android:entryValues="@array/genderValues"
+            android:key="genderPref"
+            android:summary="Select gender for clothes"
+            android:title="Gender Selection" />
+        <ListPreference
+            android:defaultValue="Metric"
+            android:entries="@array/suArray"
+            android:entryValues="@array/suValues"
+            android:key="suPref"
+            android:summary="Select system of units"
+            android:title="System of units" />
+    </PreferenceCategory>
+
+   
+            <PreferenceCategory android:title="Search Location" >
+
+                <EditTextPreference
+                    android:key="cityLocationPref"
+                    android:name="City"
+                    android:summary="Edit the full name of the city for the weather data"
+                    android:title="City" />
+            </PreferenceCategory>
+
+            <PreferenceCategory android:title="Selected Weather Location" >
+
+                <ListPreference
+                    android:enabled="false"
+                    android:entries="@array/locationArray"
+                    android:entryValues="@array/locationValues"
+                    android:key="locationPref"
+                    android:summary="Weather location was not selected!"
+                    android:title="Weather Location" />
+            </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="genderArray">
+   <item>Male</item>
+   <item>Female</item>
+</string-array>
+ 
+<string-array name="genderValues">
+   <item>male</item>
+   <item>female</item>
+</string-array>
+<string-array name="suArray">
+   <item>Metric</item>
+   <item>Imperial</item>
+</string-array>
+ 
+<string-array name="suValues">
+   <item>Metric</item>
+   <item>Imperial</item>
+</string-array>
+<string-array name="locationValues"></string-array>
+<string-array name="locationArray"></string-array>
+</resources>
